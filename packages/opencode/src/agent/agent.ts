@@ -173,6 +173,10 @@ export namespace Agent {
       title: {
         name: "title",
         mode: "primary",
+        model: {
+          providerID: "google-vertex-anthropic",
+          modelID: "claude-sonnet-4-6@default",
+        },
         options: {},
         native: true,
         hidden: true,
